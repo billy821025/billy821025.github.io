@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <STyle>
+    .con{
+        width: 400px;
+        background-color: gold;
+        /* overflow: auto; */
+
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .box{
+        width: 100px;
+        height: 200px;
+        background-color: blueviolet;
+        float: left;
+
+    }
+    .box2{
+        width: 200px;
+        height: 200px;
+        background-color: cornflowerblue;
+        float: left;
+
+    }
+    </STyle>
+</head>
+<body>
+    <div class="con clearfix">
+        <div class="box"></div>
+        <div class="box2"></div>
+
+    </div>
+</body>
+</html>

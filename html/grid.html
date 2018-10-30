@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="meyerweb.css"> -->
+    <style>
+    *{
+        font-family: "微軟正黑體";
+        box-sizing: border-box;
+    }
+    html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,img{
+        margin: 0;
+        padding: 0;
+        border: 0;
+
+    }
+    .claerfix::after{   
+    content: "";
+    display: block;
+    clear: both;
+
+}
+    .full-width{
+        width: 100%;
+    }
+    .fix-width{
+        width:1024px;
+        margin: auto;
+    }
+    .co-1{
+        width:calc(100%/12*1);
+    }
+    .co-2{
+        width:calc(100%/12*2);
+    }
+    .co-3{
+        width:calc(100%/12*3);
+    }
+    .co-4{
+        width:calc(100%/12*4);
+    }
+    .co-5{
+        width:calc(100%/12*5);
+    }
+    .co-6{
+        width:calc(100%/12*6);
+    }
+    .co-7{
+        width:calc(100%/12*7);
+    }
+    .co-8{
+        width:calc(100%/12*8);
+    }
+    .co-9{
+        width:calc(100%/12*9);
+    }
+    .co-10{
+        width:calc(100%/12*10);
+    }
+    .co-11{
+        width:calc(100%/12*11);
+    }
+    .co-12{
+        width:calc(100%/12*12);
+    }
+    [class*="co"]{
+      float:left;
+      padding: 15px;  
+    }
+
+    </style>
+</head>
+<body>
+<div class="co-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis molestiae non laborum quas sint, blanditiis necessitatibus quo obcaecati repudiandae.</div>
+<div class="co-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis molestiae non laborum quas sint, blanditiis necessitatibus quo obcaecati repudiandae.</div>
+<div class="co-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis molestiae non laborum quas sint, blanditiis necessitatibus quo obcaecati repudiandae.</div>
+<div class="co-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perspiciatis molestiae non laborum quas sint, blanditiis necessitatibus quo obcaecati repudiandae.</div>
+</body>
+</html>

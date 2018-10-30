@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <STYle>
+        *{
+            box-sizing: border-box;
+        }
+        .con{
+            width: 100%;
+            padding-bottom: 15px;
+            padding-top: 15px;
+            background-color: rgb(255, 255, 255);
+            /* background-color: grey; */
+        }
+        .warp{
+            width: 1280px;
+            margin: auto;
+            
+            /* overflow: auto; */
+
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+            
+        }
+        .box{
+            /* width: 33.333%; */
+            width: calc(100%/8);
+            float: left;
+            
+
+        }
+        .box2{
+            /* width: 33.333%; */
+            width: calc(100%/20);
+            float: right;
+            
+            
+
+        }
+        a{
+           color: black;
+           text-decoration: none; 
+           margin-left:  15px;
+           margin-right: 15px;
+        }
+    </STYle>
+</head>
+<body>
+    <div class="con">
+            
+        <div class="warp clearfix">
+               <div class="box">
+            
+                   <a href="https://www.asus.com/tw/" target="_blank" title="ASUS台灣"><img src="asus.jpg" alt="圖片失效"></a> 
+                    <!-- <a href="https://tw.yahoo.com/" target="_blank" title="~~~"></a>
+                    <img src="asus.jpg" alt="圖片失效" title="ASUS台灣">; -->
+                    
+                    <!-- <h1>asus</h1> -->
+                </div>
+            <!-- <div class="box">產品</div>
+                <div class="box">熱門活動</div>
+                    <div class="box">商用電腦</div>
+                        <div class="box">服務&社群</div>
+                            <div class="box">商店</div> -->
+
+                            <a href="#" class="href">產品</a>
+                            <a href="#" class="href">熱門活動</a>
+                            <a href="#" class="href">商用電腦</a>
+                            <a href="#" class="href">服務&社群</a>
+                            <a href="#" class="href">商店</a>
+                            <div class="box2">
+                                    <span class="icon"><i class="fa fa-search"></i></span>
+                                    <input type="search" id="search" placeholder="Search..." />
+
+
+                            </div>
+                                <div class="box2">
+                                 <a href="https://account.asus.com/loginform.aspx?skey=ce35850582494f72b294d7861bee2b97"  target="_blank" title="~~~">登入</a> 
+                                </div>
+
+
+        </div>
+
+    </div>
+    
+
+
+
+</body>
+</html>
